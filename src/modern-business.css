@@ -1,0 +1,70 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/templates/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+/*body {
+  padding-top: 56px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}*/
+#headerlogo{
+	padding:3%;
+	max-width: 55%;
+	min-width: 250px;
+
+}
+@media only screen and (min-width: 800px)
+#headerlogo{
+  max-width:35%;
+}
+.dark{
+  background-color: #1e262d8f;
+}
+nav{
+	/*min-height: 15vh;*/
+	max-height: 18rem;
+	/*width: 185px;*/
+}
+body{
+
+}
+.pill{
+  background-color: rgba(50,50,50,.8);
+  margin: 5%;
+  border-color: white;
+  padding: 5%;
+  border-radius: 5%;
+  width:120%;
+  height:120%;
+  text-align: center; 
+  margin-right: 20%;
+
+}
+
+/*.pulseBtn a:hover{
+    padding: 12px 24px;
+    background-color: rgba(50,50,50,.8);
+    color: hsl(243, 80%, 62%);
+    border-radius: 6px;
+    box-shadow: 0 0 0 0 rgba(230, 237, 255, 0.7);
+    animation: pulse 1.75s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+@keyframes pulse {
+    to {
+      box-shadow: 0 0 0 30px rgba(230, 237, 255, 0);
+    }*/
+}
