@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Land from './LandPage';
+import Land from './Landpage';
 import Navi from './Navi';
 import ExmyCar1 from './mainCarousel';
 import ExmyJumbo1 from './myJumbo';
@@ -10,7 +10,7 @@ import Story from './Storypage';
 import Home from './Homepage';
 import CreativeValley from './CreativeValleypage';
 import NearWall from './NearWallpage';
-import beers from './Beerpage';
+import Beer from './Beerpage';
 import {
   BrowserRouter as Router,
   Switch,
@@ -49,7 +49,7 @@ export default function MyRouter() {
             <Home />
           </Route>
           <Route path="/beer">
-            <beers />
+            <Beer />
           </Route>
           <Route path="/food">
             <Food />

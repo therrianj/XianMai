@@ -59,8 +59,8 @@ const Navi = (props) => {
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-            <h5>Xian Brewery</h5>
-            <h4 className="ml-1"><strong>仙麦</strong></h4>
+          <h5>Xian Brewery</h5>
+          <h4 className="ml-1"><strong>仙麦</strong></h4>
         </Collapse>
       </Navbar>
 

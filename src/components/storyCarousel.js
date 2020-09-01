@@ -35,7 +35,7 @@ const items = [
   }
 ];
 
-const ExmyCar1 = (props) => {
+const ExmyCar = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -58,31 +58,36 @@ const ExmyCar1 = (props) => {
 
   const slides = items.map((item) => {
     return (
-      <CarouselItem
-        onExiting={() => setAnimating(true)}
-        onExited={() => setAnimating(false)}
-        key={item.src}
-      >
-        <img src={item.src} alt={item.altText} width="100%"   />
-        <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
-      </CarouselItem>
+            <CarouselItem
+              onExiting={() => setAnimating(true)}
+              onExited={() => setAnimating(false)}
+              key={item.src}
+            >
+              <img src={item.src} alt={item.altText} width="100%"  />
+              <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+            </CarouselItem>
+          
     );
   });
 
-  return (     
-    <Carousel
-      className="dark"
-      activeIndex={activeIndex}
-      next={next}
-      previous={previous}
-    >
-      <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
-      {slides}
-      <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
-      <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
-    </Carousel>
+  return (
+    <div className='container'>
+      <div className='row'>
+          <Carousel
+            className="dark"
+            activeIndex={activeIndex}
+            next={next}
+            previous={previous}
+          >
+            <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
+            {slides}
+            <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
+            <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+          </Carousel>
+      </div>
+    </div>
   );
 }
 
-export default ExmyCar1;
+export default ExmyCar;
 

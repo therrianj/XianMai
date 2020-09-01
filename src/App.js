@@ -1,26 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import Land from './components/LandPage';
-import Navi from './components/Navi';
-import ExmyCar1 from './components/mainCarousel';
-import ExmyJumbo1 from './components/myJumbo';
-import Food from './components/Foodpage';
-import Mandy from './components/Mandypage';
-import Live from './components/Livepage';
-import Story from './components/Storypage';
-import Home from './components/Homepage';
-import CreativeValley from './components/CreativeValleypage';
-import NearWall from './components/NearWallpage';
-import beers from './components/Beerpage';
-import { MAIN } from './shared/mainLand';
-import { BrowserRouter } from 'react-router-dom';
 import MyRouter from './components/myRouter';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 
 
 

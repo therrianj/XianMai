@@ -1,6 +1,6 @@
 import React from 'react';
 
-function beers(props) {
+function Beer(props) {
 	
     return(
       <div>
@@ -9,4 +9,4 @@ function beers(props) {
     );
 }
 
-export default beers;  
+export default Beer;  

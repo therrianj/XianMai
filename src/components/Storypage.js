@@ -1,10 +1,13 @@
 import React from 'react';
+import ExmyJumbo1 from './myJumbo';
+import ExmyCar from './storyCarousel';
 
 function Story(props) {
 	
     return(
       <div>
-        <h4>beer</h4>
+        <ExmyJumbo1 />
+        <ExmyCar />
       </div>
     );
 }
