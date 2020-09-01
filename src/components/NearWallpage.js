@@ -1,11 +1,12 @@
 import React from 'react';
 
-function beer(props) {
+function NearWall(props) {
+	
     return(
-      <div className="container">
+      <div>
         <h4>beer</h4>
       </div>
     );
 }
 
-export default beer;  
+export default NearWall;  
