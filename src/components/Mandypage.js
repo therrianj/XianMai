@@ -13,9 +13,12 @@ function Mandy(props) {
 
       		<div className="col-md-6">
 		        <h2>Xian Brewery 仙麦-曼蒂广场</h2> 
-		        <p>-                           Qu Jiang
-		西安曲江新区雁南一路9号曼蒂广场一层F1041---二层F2008-2011号
-		F1041—F2008-2011, Mandy Plaza, No.9 Yan Nan Road, Qu Jiang District, Xi'an
+		        <p>
+					Mandy Plaza, No.9 Yan Nan Road, Qu Jiang District, Xi'an
+				</p>
+				<p>
+					西安曲江新区雁南一路9号曼蒂广场一层F1041---二层F2008-2011号
+					F1041—F2008-2011, 
 				</p>
 
 				<p>ph. 02989557872</p>
@@ -28,16 +31,11 @@ function Mandy(props) {
 
 				<p>Tips to find us:</p>  
 				<p>
-				Closest Metro Stop: Da Yan Ta North (Line 3) 
-				- walk south through the park and then up the 
-				steps in the South East Corner past Papa John's 
-				and then Hai Di Lao.
+				Closest Metro Stop: 
+				DaYanTa North (Line 3) 
+				DaTang FuRongYuan (Line 4)
 				</p>
-				<p>
-				Wei Yi Jie (Line 2)- Walk east on Yan Nan 1st Road
-				 to Mandy Plaza and hop on the 44 or 417 Bus for a 
-				 few stops.
-				</p>
+				
 				<p>
 				We are on the courtyard side (West) of Mandy Plaza.  
 				There is also a second floor entrance toward the back 

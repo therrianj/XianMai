@@ -10,14 +10,18 @@ function Beer(props) {
     return(
    	<div>
 	      <div className='row'>
+	      	<div className="col-md-1">
+	      	</div>
+	      	<div className="col-md-10">
 		      <Card>
-		        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
+		        <CardImg top /> <img width="100%" src="/assets/images/sixcupslogo.png" alt="Card image cap" />
 		        <CardBody>
 		          <CardTitle><h3>六小杯</h3></CardTitle>
 		          <CardSubtitle><h4>Beer Sampler</h4></CardSubtitle>
 		          <CardText>Our most popular starter. Try 6 of our freshest beers of various styles and flavors.</CardText>
 		        </CardBody>
 		      </Card>
+		    </div>
 		    <div className="col-md-6">
 		      <Card>
 		        <CardImg top width="100%" src='assets/images/classicwit.jpeg' alt="Card image cap" />
