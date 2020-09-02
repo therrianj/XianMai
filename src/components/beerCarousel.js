@@ -9,33 +9,29 @@ import {
 
 const items = [
   {
-    src: 'assets/images/1brewkitmandy.png',
+    src: 'assets/images/classicwit.jpeg',
     altText: 'Slide 1',
     caption: 'Slide 1'
   },
   {
-    src: 'assets/images/1taps.png',
+    src: 'assets/images/citraIPA.jpeg',
     altText: 'Slide 2',
     caption: 'Slide 2'
   },
   {
-    src: 'assets/images/1door.png',
+    src: 'assets/images/milkStout.jpeg',
     altText: 'Slide 3',
     caption: 'Slide 3'
   },
   {
-    src: 'assets/images/1mandybar.png',
+    src: 'assets/images/coffeeStout.jpeg',
     altText: 'Slide 4',
     caption: 'Slide 4'
-  },
-  {
-    src: 'assets/images/1caligtaproom.png',
-    altText: 'Slide 5',
-    caption: 'Slide 5'
   }
+  
 ];
 
-const ExmyCar = (props) => {
+const ExBeer = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -89,5 +85,5 @@ const ExmyCar = (props) => {
   );
 }
 
-export default ExmyCar;
+export default ExBeer;
 

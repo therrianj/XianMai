@@ -35,7 +35,7 @@ const items = [
   }
 ];
 
-const ExmyCar = (props) => {
+const Exmenu = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -64,7 +64,7 @@ const ExmyCar = (props) => {
               key={item.src}
             >
               <img src={item.src} alt={item.altText} width="100%"  />
-              <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+              
             </CarouselItem>
           
     );
@@ -72,7 +72,6 @@ const ExmyCar = (props) => {
 
   return (
     <div className='container'>
-      <div className='row'>
           <Carousel
             className="dark"
             activeIndex={activeIndex}
@@ -84,10 +83,9 @@ const ExmyCar = (props) => {
             <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
             <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
           </Carousel>
-      </div>
+      
     </div>
   );
 }
 
-export default ExmyCar;
-
+export default Exmenu;
