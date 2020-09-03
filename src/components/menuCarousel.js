@@ -146,7 +146,6 @@ const Exmenu = (props) => {
   });
 
   return (
-    <div className='container'>
           <Carousel
             className="dark"
             activeIndex={activeIndex}
@@ -157,9 +156,7 @@ const Exmenu = (props) => {
             {slides}
             <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
             <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
-          </Carousel>
-      
-    </div>
+          </Carousel>  
   );
 }
 
