@@ -9,30 +9,35 @@ import {
 
 const items = [
   {
-    src: 'assets/images/1brewkitmandy.png',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    src: 'assets/images/vvcombo.png',
+    altText: 'vv',
+    caption: 'Early Days:',
+    caption2: 'Vice Versa 2014'
   },
   {
-    src: 'assets/images/1taps.png',
-    altText: 'Slide 2',
-    caption: 'Slide 2'
+    src: 'assets/images/nwInstallcombo.png',
+    altText: 'nw install1',
+    caption: 'Early Days: Install',
+    caption2: 'Near Wall Bar 2014'
   },
   {
-    src: 'assets/images/1door.png',
-    altText: 'Slide 3',
-    caption: 'Slide 3'
+    src: 'assets/images/nwInstallcombo1.png',
+    altText: 'nw install2',
+    caption: 'Early Days: Install',
+    caption2: 'Near Wall Bar 2014'
   },
   {
-    src: 'assets/images/1mandybar.png',
-    altText: 'Slide 4',
-    caption: 'Slide 4'
+    src: 'assets/images/nwWatermelon.png',
+    altText: 'watermelon wheat',
+    caption: 'Early Days: Near Wall Bar',
+    caption2: 'Watermelon Wheat 2014'
   },
   {
-    src: 'assets/images/1caligtaproom.png',
-    altText: 'Slide 5',
-    caption: 'Slide 5'
-  }
+    src: 'assets/images/nw1.png',
+    altText: 'The team',
+    caption: 'Early Days: Near Wall Bar',
+    caption2: 'The Team 2014'
+  },
 ];
 
 const ExmyCar = (props) => {
@@ -64,7 +69,7 @@ const ExmyCar = (props) => {
               key={item.src}
             >
               <img src={item.src} alt={item.altText} width="100%"  />
-              <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+              <CarouselCaption captionText={item.caption2} captionHeader={item.caption} />
             </CarouselItem>
           
     );
