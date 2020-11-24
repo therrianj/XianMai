@@ -10,28 +10,28 @@ import {
 const items = [
   {
     src: 'assets/images/1brewkitmandy.png',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    altText: '',
+    caption: ''
   },
   {
     src: 'assets/images/1taps.png',
-    altText: 'Slide 2',
-    caption: 'Slide 2'
+    altText: '',
+    caption: ''
   },
   {
     src: 'assets/images/1door.png',
-    altText: 'Slide 3',
-    caption: 'Slide 3'
+    altText: '',
+    caption: ''
   },
   {
     src: 'assets/images/1mandybar.png',
-    altText: 'Slide 2',
-    caption: 'Slide 2'
+    altText: '',
+    caption: ''
   },
   {
     src: 'assets/images/1caligtaproom.png',
-    altText: 'Slide 2',
-    caption: 'Slide 2'
+    altText: '',
+    caption: ''
   }
 ];
 
@@ -64,7 +64,7 @@ const ExmyCar1 = (props) => {
         key={item.src}
       >
         <img src={item.src} alt={item.altText} width="100%"   />
-        <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+        <CarouselCaption captionText={item.altText} captionHeader={item.caption} />
       </CarouselItem>
     );
   });

@@ -10,8 +10,8 @@ import {
 const items = [
   {
     src: 'assets/images/classicwit.jpeg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    altText: '',
+    caption: ''
   },
   {
     src: 'assets/images/citraIPA.jpeg',
@@ -20,13 +20,13 @@ const items = [
   },
   {
     src: 'assets/images/milkStout.jpeg',
-    altText: 'Slide 3',
-    caption: 'Slide 3'
+    altText: '',
+    caption: ''
   },
   {
     src: 'assets/images/coffeeStout.jpeg',
-    altText: 'Slide 4',
-    caption: 'Slide 4'
+    altText: '',
+    caption: ''
   }
   
 ];

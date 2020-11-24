@@ -23,23 +23,23 @@ const Navi = (props) => {
   return (
     <div>
       <Navbar color="dark" dark expand="sm">
-        <a href="/"><img  src="assets/images/logo-bai.png" alt="mini-logo" height="80px" width="80px"/></a>
+        <a href="/"><img  src="assets/images/logo-bai.png" alt="mini-logo" height="100px" width="100px"/></a>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="/beer">Beer啤酒</NavLink>
+          <Nav className="mr-auto ml-2 pt-4" navbar>
+            <NavItem >
+              <NavLink className='text-light' href="/beer"><h5>Beer啤酒</h5></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/food">Food菜品</NavLink>
+              <NavLink className='text-light' href="/food"><h5>Food菜品</h5></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/story">Story故事</NavLink>
+              <NavLink className='text-light' href="/story"><h5>Story故事</h5></NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
+              <DropdownToggle nav caret className='text-light'><h5>
                 Location地址
-              </DropdownToggle>
+              </h5></DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem href="/mandy">
                   Xian Brewery - Mandy 蔓蒂广场
@@ -59,8 +59,8 @@ const Navi = (props) => {
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          <h5>Xian Brewery</h5>
-          <h4 className="ml-1"><strong>仙麦</strong></h4>
+          <h4 className='text-secondary'>Xian Brewery</h4>
+          <h4 className="ml-1 text-secondary"><strong>仙麦</strong></h4>
         </Collapse>
       </Navbar>
 

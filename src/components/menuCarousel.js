@@ -146,17 +146,23 @@ const Exmenu = (props) => {
   });
 
   return (
-          <Carousel
-            className="dark"
-            activeIndex={activeIndex}
-            next={next}
-            previous={previous}
-          >
-            <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
-            {slides}
-            <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
-            <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
-          </Carousel>  
+    <div className='container'>
+      <div className='col-md-1'></div>
+      <div className='col-md-10'>
+            <Carousel
+              className="dark"
+              activeIndex={activeIndex}
+              next={next}
+              previous={previous}
+            >
+              <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
+              {slides}
+              <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
+              <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+            </Carousel> 
+      </div>
+      <div className='col-md-1'></div> 
+    </div>
   );
 }
 

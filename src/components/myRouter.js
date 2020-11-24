@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Land from './Landpage';
 import Navi from './Navi';
 import ExmyCar1 from './mainCarousel';
 import ExmyJumbo1 from './myJumbo';
