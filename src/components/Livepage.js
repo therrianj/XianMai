@@ -12,7 +12,7 @@ function Live(props) {
       		<div className="col-md-1">
       		</div>
 
-      		<div className="col-md-6">
+      		<div className="col-md-6" style={{color: '#ffffff'}}>
 		        <h2>XM Live 仙麦LIVE</h2> 
 		        <p>
 		        	No.8 Zhu Que Street (inside Zhu Que Gate) 

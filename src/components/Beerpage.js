@@ -12,8 +12,8 @@ function Beer(props) {
 	      <div className='row'>
 	      	<div className="col-md-1">
 	      	</div>
-	      	<div className="col-md-10">
-		      <Card style={{backgroundColor: '#484f5dff'}}>
+	      	<div className="col-md-10 mt-1">
+		      <Card >
 		        <CardImg top /> <img width="100%" src="/assets/images/sixcupslogo.png" alt="Card image cap" />
 		        <CardBody style={{backgroundColor: '#ffffff'}}>
 		          <CardTitle><h3>六小杯</h3></CardTitle>

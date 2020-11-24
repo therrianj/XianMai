@@ -11,7 +11,7 @@ function CreativeValley(props) {
       		<div className="col-md-1">
       		</div>
 
-      		<div className="col-md-6">
+      		<div className="col-md-6" style={{color: '#ffffff'}}>
 		        <h2>仙麦 Taproom</h2> 
 		        <p>
 		        	No.3369 Yanxiang Road - Creative Valley Mall (L1) 

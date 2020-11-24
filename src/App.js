@@ -7,7 +7,7 @@ import MyRouter from './components/myRouter';
 
 export default function App() {
   return (
-    <div className='bg-dark'>
+    <div style={{backgroundColor: '#434a52ff'}}>
       <MyRouter />
     </div>
   );

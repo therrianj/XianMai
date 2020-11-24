@@ -11,7 +11,7 @@ function NearWall(props) {
       		<div className="col-md-1">
       		</div>
 
-      		<div className="col-md-6">
+      		<div className="col-md-6" style={{color: '#ffffff'}}>
 		        <h2>Near Wall Bar 泥窝窝</h2> 
 		        <p>
 		        Near Wall Bar, No. 40 the west part of south 

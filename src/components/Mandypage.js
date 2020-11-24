@@ -11,7 +11,7 @@ function Mandy(props) {
       		<div className="col-md-1">
       		</div>
 
-      		<div className="col-md-6">
+      		<div className="col-md-6" style={{color: '#ffffff'}}>
 		        <h2>Xian Brewery 仙麦-曼蒂广场</h2> 
 		        <p>
 					Mandy Plaza, No.9 Yan Nan Road, Qu Jiang District, Xi'an
