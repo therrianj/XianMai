@@ -9,22 +9,22 @@ import {
 
 const items = [
   {
-    src: 'assets/images/classicwit.jpeg',
+    src: '/assets/images/classicwit.jpeg',
     altText: '',
     caption: ''
   },
   {
-    src: 'assets/images/citraIPA.jpeg',
+    src: '/assets/images/citraIPA.jpeg',
     altText: 'Slide 2',
     caption: 'Slide 2'
   },
   {
-    src: 'assets/images/milkStout.jpeg',
+    src: '/assets/images/milkStout.jpeg',
     altText: '',
     caption: ''
   },
   {
-    src: 'assets/images/coffeeStout.jpeg',
+    src: '/assets/images/coffeeStout.jpeg',
     altText: '',
     caption: ''
   }
