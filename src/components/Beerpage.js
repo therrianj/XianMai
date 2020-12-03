@@ -24,7 +24,7 @@ function Beer(props) {
 		    </div>
 		    <div className="mt-1 col-md-6">
 		      <Card>
-		        <CardImg top width="100%" src='/assets/images/classicwit.jpeg' alt="Card image cap" />
+		        <CardImg top width="100%" src='/assets/images/classicwit.png' alt="Card image cap" />
 		        <CardBody>
 		          <CardTitle><h3>经典小麦</h3></CardTitle>
 		          <CardSubtitle><h4>Classic Wit</h4></CardSubtitle>
@@ -34,7 +34,7 @@ function Beer(props) {
 		    </div>
 		    <div className="mt-1 col-md-6">
 		      <Card>
-		        <CardImg top width="100%" src='/assets/images/citraIPA.jpeg' alt="Card image cap" />
+		        <CardImg top width="100%" src='/assets/images/citraIPA.png' alt="Card image cap" />
 		        <CardBody>
 		          <CardTitle><h3>经典小麦</h3></CardTitle>
 		          <CardSubtitle><h4>Citra IPA</h4></CardSubtitle>
@@ -45,7 +45,7 @@ function Beer(props) {
 		   
 		    <div className="mt-1 col-md-6">
 		      <Card>
-		        <CardImg top width="100%" src='/assets/images/milkStout.jpeg' alt="Card image cap" />
+		        <CardImg top width="100%" src='/assets/images/milkStout.png' alt="Card image cap" />
 		        <CardBody>
 		          <CardTitle><h3>经典小麦</h3></CardTitle>
 		          <CardSubtitle><h4>Milk Stout</h4></CardSubtitle>
@@ -55,7 +55,7 @@ function Beer(props) {
 		    </div>
 		    <div className="mt-1 col-md-6">
 		      <Card>
-		        <CardImg top width="100%" src='/assets/images/coffeeStout.jpeg' alt="Card image cap" />
+		        <CardImg top width="100%" src='/assets/images/coffeeStout.png' alt="Card image cap" />
 		        <CardBody>
 		          <CardTitle><h3>经典小麦</h3></CardTitle>
 		          <CardSubtitle><h4>Coffee Stout</h4></CardSubtitle>
