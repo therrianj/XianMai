@@ -23,6 +23,51 @@ const items = [
     altText: 'Slide 3',
     caption: 'Slide 3'
   },
+  {
+    src: 'assets/images/menu3.png',
+    altText: 'Slide 2',
+    caption: 'Slide 2'
+  },
+  {
+    src: 'assets/images/menu4.png',
+    altText: 'Slide 3',
+    caption: 'Slide 3'
+  },
+   {
+    src: 'assets/images/menu5.png',
+    altText: 'Slide 3',
+    caption: 'Slide 3'
+  },
+   {
+    src: 'assets/images/menu6.png',
+    altText: 'Slide 3',
+    caption: 'Slide 3'
+  },
+   {
+    src: 'assets/images/menu7.png',
+    altText: 'Slide 3',
+    caption: 'Slide 3'
+  },
+   {
+    src: 'assets/images/menu8.png',
+    altText: 'Slide 3',
+    caption: 'Slide 3'
+  },
+   {
+    src: 'assets/images/menu9.png',
+    altText: 'Slide 3',
+    caption: 'Slide 3'
+  },
+   {
+    src: 'assets/images/menu10.png',
+    altText: 'Slide 3',
+    caption: 'Slide 3'
+  },
+   {
+    src: 'assets/images/menu11.png',
+    altText: 'Slide 3',
+    caption: 'Slide 3'
+  },
   
   {
     src: 'assets/images/mexico.png',
@@ -30,14 +75,44 @@ const items = [
     caption: 'Slide 3'
   },
   {
-    src: 'assets/images/mexico1.png',
+    src: 'assets/images/mexico3.png',
     altText: 'Slide 4',
     caption: 'Slide 4'
   },
   {
-    src: 'assets/images/mexico2.png',
+    src: 'assets/images/mexico4.png',
     altText: 'Slide 5',
     caption: 'Slide 5'
+  },
+  {
+    src: 'assets/images/mexico5.png',
+    altText: 'Slide 2',
+    caption: 'Slide 2'
+  },
+  {
+    src: 'assets/images/mexico6.png',
+    altText: 'Slide 3',
+    caption: 'Slide 3'
+  },
+  {
+    src: 'assets/images/mexico7.png',
+    altText: 'Slide 2',
+    caption: 'Slide 2'
+  },
+  {
+    src: 'assets/images/mexico8.png',
+    altText: 'Slide 2',
+    caption: 'Slide 2'
+  },
+  {
+    src: 'assets/images/mexico10.png',
+    altText: 'Slide 2',
+    caption: 'Slide 2'
+  },
+  {
+    src: 'assets/images/mexico11.png',
+    altText: 'Slide 2',
+    caption: 'Slide 2'
   }
 ];
 
